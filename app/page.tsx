@@ -12,13 +12,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Video 
-            src="/videos/pixverse_l0ED031zHe.mp4" 
+          <Video
+            src="/videos/pixverse_l0ED031zHe.mp4"
             className="w-full h-full object-cover rounded-none"
             autoplay
             loop
-            muted
-          />
+            muted />
+
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-background/90" />
         </div>
         
@@ -27,7 +27,7 @@ export default function Home() {
             Frontend Developer & Adventure Photographer
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
-            Building Digital Interfaces. <br />
+            Building Digital Interfaces. <br data-source-path="app/page.tsx:30:41" data-source-file="app/page.tsx" data-source-line="30">Capturing Mountain <span class="text-primary italic" data-source-path="app/page.tsx:31:31" data-source-file="app/page.tsx" data-source-line="31">Motion!</span> <br />
             Capturing Mountain <span className="text-primary italic">Motion.</span>
           </h1>
           <p className="max-w-[700px] mx-auto text-lg text-white/80 mb-8 md:text-xl">
@@ -185,9 +185,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>);
+
 }
-
-
-
