@@ -27,7 +27,7 @@ export default function Home() {
             Frontend Developer & Adventure Photographer
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
-            Building Digital Interfaces. <br data-source-path="app/page.tsx:30:41" data-source-file="app/page.tsx" data-source-line="30">Capturing Mountain <span class="text-primary italic" data-source-path="app/page.tsx:31:31" data-source-file="app/page.tsx" data-source-line="31">Motion!</span> <br />
+            Building Digital Interfaces. <br />
             Capturing Mountain <span className="text-primary italic">Motion.</span>
           </h1>
           <p className="max-w-[700px] mx-auto text-lg text-white/80 mb-8 md:text-xl">
@@ -188,3 +188,4 @@ export default function Home() {
     </div>);
 
 }
+
