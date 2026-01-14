@@ -16,8 +16,8 @@
   --card-foreground: 222 0.47 0.11;
   --popover: 0 0 1;
   --popover-foreground: 222 0.47 0.11;
-  --primary: 215 0.5 0.23; /* Deep Blue */
-  --primary-foreground: 210 0.4 0.98;
+  --primary: 335 0.75 0.45; /* Vibrant Alpine Rose - Darker and more saturated for visibility */
+  --primary-foreground: 0 0 1;
   --secondary: 210 0.4 0.96; /* Pale Blue */
   --secondary-foreground: 222 0.47 0.11;
   --muted: 210 0.4 0.96;
@@ -50,4 +50,5 @@
   --input: 217 0.33 0.17;
   --ring: 224 0.76 0.48;
 }
+
 
